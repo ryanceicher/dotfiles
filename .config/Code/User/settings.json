@@ -1,0 +1,227 @@
+{
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "@azure.argTenant": "",
+    "github.copilot.chat.codeGeneration.instructions": [],
+    "database-client.autoSync": true,
+    "chat.agent.thinkingStyle": "collapsedPreview",
+    "chat.checkpoints.enabled": false,
+    "accessibility.signals.chatRequestSent": {
+        "sound": "on",
+        "announcement": "off"
+    },
+    "accessibility.signals.chatResponseReceived": {
+        "sound": "on"
+    },
+    "accessibility.signals.chatEditModifiedFile": {
+        "sound": "on"
+    },
+    "accessibility.signals.chatUserActionRequired": {
+        "sound": "on",
+        "announcement": "off"
+    },
+    "chat.notifyWindowOnResponseReceived": "never",
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "chat.tools.terminal.autoApprove": {
+        "pwsh": true,
+        "if": true,
+        "(Test-Path": true,
+        "Out-Null": true,
+        "dotnet new": true,
+        "dotnet sln": true,
+        "dotnet add": true,
+        "dotnet list": true,
+        "dotnet restore": true,
+        "dotnet msbuild": true,
+        "dotnet build": true,
+        "docker compose": true,
+        "dotnet test": true,
+        "verbosity=minimal\"": true,
+        "docker-compose": true,
+        "docker logs": true,
+        "docker ps": true,
+        "docker exec": true,
+        "New-Item": true,
+        "Rename-Item": true,
+        ".\\mvnw": true,
+        ".\\ListConduitsTest.ps1": true,
+        "ForEach-Object": true,
+        "Set-Content": true
+    },
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "ROOT"
+        }
+    ],
+    "files.autoSave": "afterDelay",
+    "search.useIgnoreFiles": false,
+    "search.useGlobalIgnoreFiles": false,
+    "search.useParentIgnoreFiles": false,
+    "vim.leader": " ",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.vimrc.enable": true,
+    "editor.accessibilitySupport": "on",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.referenceSearch.trigger"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "n",
+                "e"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ],
+        },
+        {
+            "before": [
+                "g",
+                "p",
+                "e"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ],
+        },
+        {
+            "before": [
+                " ",
+                "y"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+        {
+            "before": [
+                " ",
+                "p"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
+            ]
+        },
+        {
+            "before": [
+                "<C-c>"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+        {
+            "before": [
+                "<C-v>"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                " ",
+                "y"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+        {
+            "before": [
+                " ",
+                "p"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
+            ]
+        },
+        {
+            "before": [
+                "<C-c>"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+        {
+            "before": [
+                "<C-v>"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
+            ]
+        }
+    ],
+    "window.title": "${rootName}",
+    "window.titleBarStyle": "native",
+    "window.titleSeparator": " ",
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "powershell.promptToUpdatePowerShell": false,
+    "chat.mcp.serverSampling": {
+        "Azure MCP Server Provider: Azure MCP": {
+            "allowedDuringChat": true
+        }
+    },
+    "security.allowedUNCHosts": [
+        "192.168.1.91"
+    ],
+    "chat.tools.urls.autoApprove": {},
+    "workbench.colorTheme": "Dark Modern",
+    "markdown-preview-enhanced.liveUpdate": false,
+    "chat.viewSessions.orientation": "stacked",
+    "github.copilot.chat.cli.remote.enabled": true,
+    "git.addAICoAuthor": "off",
+    "chat.agent.maxRequests": 500000,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "chat.notifyWindowOnConfirmation": "off"
+}
